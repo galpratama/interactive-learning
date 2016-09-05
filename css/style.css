@@ -1,0 +1,79 @@
+* {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+
+body {
+    margin: 0px;
+    line-height: 1.8;
+}
+
+.app-logo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-left: 30px;
+    padding-right: 39px;
+    z-index:100;
+    background-color: #179aff;
+    border-right: 1px solid #CCC; 
+}
+
+.app-logo figure img {
+    width: 250px;
+}
+
+.content {
+    padding-left: 320px;
+}
+
+.content .video-content {
+    text-align: center;
+    background-color: #2D3339;
+    padding: 20px;
+}
+
+.content .description-content {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#button-list {
+    padding-top: 10px;
+}
+
+#sourceCode, #targetCode {
+    border: 2px solid #ddd;
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#sourceCode {
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    background:#fafafa;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+
+}
+
+.video-time {
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    font-size: 11px;
+}
+
+#videoplayer {
+  width: 90%    !important;
+  height: auto   !important;
+}
+
+*:focus { outline:0 !important; }
